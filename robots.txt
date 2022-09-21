@@ -1,3 +1,0 @@
-User-agent: SiteCheckerBotCrawler
-Allow: /
-Sitemap: https://kabuya-sina.github.io/P4---La-Panth-re/
