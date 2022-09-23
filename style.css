@@ -795,6 +795,11 @@ h4 {
 .text-white{
     color: white !important;
 }
+iframe{
+    width: 400px;
+    height: 300px;
+    border: 0;
+}
 
 .btn-atomic-tangerine {
     background: #F3976C;
