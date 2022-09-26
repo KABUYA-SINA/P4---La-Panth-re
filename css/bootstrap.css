@@ -121,7 +121,7 @@ hr {
     height: 0;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
-    box-sizing: content-box
+    box-sizing: content-box; 
 }
 
 pre {
@@ -195,12 +195,12 @@ input[type=search] {
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
-    -webkit-appearance: textfield
+    -webkit-appearance: textfield; 
 }
 
 input[type=search]::-webkit-search-cancel-button,
 input[type=search]::-webkit-search-decoration {
-    -webkit-appearance: none
+    -webkit-appearance: none;
 }
 
 fieldset {
@@ -242,7 +242,7 @@ th {
         text-shadow: none !important;
         background: 0 0 !important;
         -webkit-box-shadow: none !important;
-        box-shadow: none !important
+        box-shadow: none !important;
     }
     a,
     a:visited {
@@ -321,7 +321,7 @@ th {
     font-weight: 400;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+    -moz-osx-font-smoothing: grayscale; 
 }
 
 .glyphicon-asterisk:before {
@@ -1376,14 +1376,14 @@ th {
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box
+    box-sizing: border-box; 
 }
 
 :after,
 :before {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box
+    box-sizing: border-box; 
 }
 
 html {
@@ -1458,6 +1458,7 @@ img {
     border: 1px solid #ddd;
     border-radius: 4px;
     -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out
 }
@@ -1951,7 +1952,7 @@ kbd kbd {
     font-size: 100%;
     font-weight: 700;
     -webkit-box-shadow: none;
-    box-shadow: none
+    box-shadow: none;
 }
 
 pre {
@@ -3130,7 +3131,7 @@ input[type=checkbox]:focus,
 input[type=radio]:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px
+    outline-offset: -2px; 
 }
 
 output {
@@ -3197,7 +3198,7 @@ textarea.form-control {
 }
 
 input[type=search] {
-    -webkit-appearance: none
+    -webkit-appearance: none;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
@@ -4320,6 +4321,7 @@ tbody.collapse.in {
     list-style: none;
     background-color: #fff;
     -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
     background-clip: padding-box;
     border: 1px solid #ccc;
     border: 1px solid rgba(0, 0, 0, .15);
@@ -4428,7 +4430,7 @@ tbody.collapse.in {
     content: "";
     border-top: 0;
     border-bottom: 4px dashed;
-    border-bottom: 4px solid\9
+    border-bottom: 4px solid; 
 }
 
 .dropup .dropdown-menu,
@@ -6221,7 +6223,7 @@ a.thumbnail:hover {
     background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
     background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
     -webkit-background-size: 40px 40px;
-    background-size: 40px 40px
+    background-size: 40px 40px;
 }
 
 .progress-bar.active,
